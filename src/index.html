@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles/root.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <script defer src="./scripts/main.js"></script>
+    <title>Browser in Github</title>    
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>GitBrowser</h1>
+        </div>
+        <div class="search-bar">
+            <input id="search-box" type="text" placeholder="Type a github login">
+            <button id="search-btn" onclick="searchGitUser()" >Search</button>
+        </div>
+       <div class="result">
+            <img id="avatar">
+            <div class="description">
+                <h1 id="blind-msg">The user will apear here</h1>
+                <h2 id="login"></h2>
+                <p id="name"></p>
+                <p id="id"></p>
+                <p id="bio"></p>
+                <p id="repos"></p>
+                <p id="followers"></p>
+            </div>
+       </div>
+    </div>
+</body>
+</html>
