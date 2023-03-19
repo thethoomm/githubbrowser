@@ -1,5 +1,5 @@
 # githubbrowser
-#A trainning project using Github API
+A trainning project using Github API
     Um projeto de treino utilizando a API do Github.
 
     O projeto aplica conceitos como:
